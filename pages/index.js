@@ -28,7 +28,7 @@ number of students: {store.length}
 <details>
   <summary>who?</summary>
 <ul className='who'>
-  {store.map(each => <li>{each.name}</li>)}
+  {store.map(each => <li key={'str' + store.length}>{each.name}</li>)}
 </ul>
 </details>
 <br/>
@@ -158,7 +158,7 @@ alert("wrong phone || please set the number to write format")
 
 <button onClick={()=>{
   setAsker(0)
-}} className='btn-1'>No, i'm not sure</button>
+}} className='btn-1'>No, i am not sure</button>
 <button onClick={()=>{
   setAsker(0)
 
@@ -186,7 +186,7 @@ if(x.length >= 2){
 
 
 
-}} className='btn-2'>Yes, i'm sure</button>
+}} className='btn-2'>Yes, i am sure</button>
 </div>
 
 </div>}
