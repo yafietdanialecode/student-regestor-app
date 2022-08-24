@@ -1,3 +1,5 @@
 # Here is student app that i create
+# I just deplo it on vercel so that you can see the demo
+# Demo below
 
-(Watch Demo)[https://student-regestor-28bqrmqr1-yafietdaniale.vercel.app/]
+[https://student-regestor-28bqrmqr1-yafietdaniale.vercel.app/]
